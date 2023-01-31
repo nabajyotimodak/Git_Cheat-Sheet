@@ -170,7 +170,8 @@ Git Branching
  I want to see the branches available in this repository then: Git branch
  I want to see all the branches including local and remote branches: Git branch -a
  I want to see all the branches and their last/latest commits along with their message: Git branch -v
- Delete a branch: Git branch <branchname> -d 
+ Delete a branch: git branch <branchname> -d 
+ Delete a branch from the same branch itself: git branch -d
  Rename a branch: Git branch -m  <oldName> <newName>
  If you are on the branch you want to rename: git branch -m new-name
  To check the parent of a branch = git log -g <branch name>
